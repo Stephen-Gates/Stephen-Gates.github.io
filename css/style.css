@@ -55,7 +55,11 @@ ol#footnotes:before {content: "———"; letter-spacing: -4px;margin-left: -1.
 ol p, ul p {margin-bottom: 0px;}
 li {margin-bottom: 0.75em;margin-top: 0.75em;}
 
-#home {margin-bottom:0.5em; margin-top:2em; border: 2px solid; border-radius: 10px; padding-left: 30px; padding-top: 10px; padding-bottom: 10px;}
+a.home:link {color:#ffffff; text-decoration:none;}
+a.home:visited {color:#ffffff; text-decoration:none;}
+a.home:hover {text-decoration:underline;}
+
+#home {margin-bottom:0.5em; margin-top:2em; border: 2px solid; border-radius: 10px; padding: 10px; background-color: #000000; color:#ffffff;}
 
 @keyframes highfade {
     0% {
