@@ -1,10 +1,11 @@
 
 body {font-size: 13pt; color:#222; background:#fbfbfb; font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;line-height: 1.4; margin: 10%;}
 
-h2, h3, h4, h5, h6 {color:#111;}
+h2, h3, h4, h5, h6 {color:#111111;}
 h1, h2, h3, h4, h5, h6 {font-weight:normal;}
 
-h1 {font-size:3em; line-height:1; margin-bottom:0.5em; margin-top:2em; background-color: #000ff; color:#00fff;}
+h1 {font-size:3em; line-height:1; margin-bottom:0.5em; margin-top:2em; background-color: #000000; color:#ffffff;
+    border: 2px solid; border-radius: 10px; padding-left: 30px; padding-top: 10px; padding-bottom: 10px;}
 
 h2 {font-size:2em; margin-bottom:0.75em; margin-top:1.5em;}
 
@@ -54,6 +55,7 @@ ol#footnotes:before {content: "———"; letter-spacing: -4px;margin-left: -1.
 ol p, ul p {margin-bottom: 0px;}
 li {margin-bottom: 0.75em;margin-top: 0.75em;}
 
+#home {margin-bottom:0.5em; margin-top:2em; border: 2px solid; border-radius: 10px; padding-left: 30px; padding-top: 10px; padding-bottom: 10px;}
 
 @keyframes highfade {
     0% {
