@@ -1,18 +1,9 @@
-/*
-	Helvetica Neue
-
-	Demo css to show basic, more technical styling
-
-	Visit http://www.ulyssesapp.com/styles for full reference
-
-*/
-
 
 body {font-size: 13pt;color:#222;background:#fbfbfb;font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;line-height: 1.4;margin: 10%;}
 
 h1, h2, h3, h4, h5, h6 {font-weight:normal;color:#111;}
 
-h1 {font-size:3em;line-height:1;margin-bottom:0.5em;margin-top:2em;}
+h1 {font-size:3em;line-height:1;margin-bottom:0.5em;margin-top:2em;background-color: #00000; color:#fffff}
 
 h2 {font-size:2em;margin-bottom:0.75em;margin-top:1.5em;}
 
