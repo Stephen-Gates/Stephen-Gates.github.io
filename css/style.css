@@ -59,6 +59,8 @@ a.home:link {color:#ffffff; text-decoration:none;}
 a.home:visited {color:#ffffff; text-decoration:none;}
 a.home:hover {text-decoration:underline;}
 
+#advisory {padding: 5px; background-color: #eeeeee; color:#999999;}
+
 #home {margin-bottom:0.5em; margin-top:2em; border: 2px solid; border-radius: 10px; padding: 10px; background-color: #000000; color:#ffffff;}
 
 @keyframes highfade {
