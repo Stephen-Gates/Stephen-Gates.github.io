@@ -1,0 +1,142 @@
+{
+"title": "Australia's Regional Open Data Census",
+"name": "Australia-Regional-Open-Data-Census",
+"description": "The census is a crowd-sourced measure of the openness of key data published by Australia's states and territories. Openness is based on the answers provided to a number of questions. Anyone can submit an assessment and our expert editorial team reviews each submission.",
+"licenses": [
+{
+"url": "http://www.opendefinition.org/licenses/odc-pddl",
+"title": "Open Data Commons Public Domain Dedication and Licence 1.0",
+"id": "ODC-PDDL-1.0"
+}
+],
+"resources": [
+{
+"name": "entries.csv",
+"path": "http://australia.census.okfn.org/api/entries.csv",
+"mediatype": "text/csv",
+"bytes": 26610,
+"schema": {
+"fields": [
+{
+"name": "id",
+"type": "string"
+},
+{
+"name": "title",
+"type": "string"
+},
+{
+"name": "censusid",
+"type": "string"
+},
+{
+"name": "timestamp",
+"type": "datetime"
+},
+{
+"name": "year",
+"type": "integer"
+},
+{
+"name": "place",
+"title": "State/Territory",
+"type": "string",
+"format": "A string specifying a format",
+"description": "An Australian State or Territory",
+"constraints": {
+# a constraints-descriptor
+}
+},
+{
+"name": "dataset",
+"type": "string"
+},
+{
+"name": "exists",
+"type": "string"
+},
+{
+"name": "digital",
+"type": "string"
+},
+{
+"name": "public",
+"type": "string"
+},
+{
+"name": "machinereadable",
+"type": "string"
+},
+{
+"name": "bulk",
+"type": "string"
+},
+{
+"name": "openlicense",
+"type": "string"
+},
+{
+"name": "uptodate",
+"type": "string"
+},
+{
+"name": "online",
+"type": "string"
+},
+{
+"name": "free",
+"type": "string"
+},
+{
+"name": "url",
+"type": "string"
+},
+{
+"name": "format",
+"type": "number"
+},
+{
+"name": "licenseurl",
+"type": "number"
+},
+{
+"name": "dateavailable",
+"type": "number"
+},
+{
+"name": "officialtitle",
+"type": "string"
+},
+{
+"name": "publisher",
+"type": "string"
+},
+{
+"name": "qualityinfo",
+"type": "number"
+},
+{
+"name": "qualitystructure",
+"type": "number"
+},
+{
+"name": "details",
+"type": "string"
+},
+{
+"name": "ycount",
+"type": "integer"
+},
+{
+"name": "isopen",
+"type": "number"
+},
+{
+"name": "details_url",
+"type": "string"
+}
+]
+}
+}
+]
+}
