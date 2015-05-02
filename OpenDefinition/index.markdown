@@ -134,9 +134,6 @@ Some words in the Open Definition have special meaning and are  shown in **bold*
 
 These improvement ideas mainly come from conversations on the [discussion list](https://lists.okfn.org/pipermail/od-discuss/).
 
-
-### Idea to improve the Open Format definition 
-
 #### Open Format Specification
 An open format specification *should* be:
 - defined through a fair, transparent and collaborative process.
@@ -146,9 +143,6 @@ An open format specification *should* be:
 #### Retain all original detail
 The **work** *should* be published in a lossless and uncompressed open format so all the original detail is retained.
 
-
-
-### Using the Open Format definition
 
 #### A common resource for tools to reference
 Tools like the [Open Data Census](http://census.okfn.org/) and [Open Data Certificates](https://certificates.theodi.org/) test to see if data is published using an open format. This [improvement idea](http://opendefinition.org/licenses/) seeks to harmonise the definition of the Open Format for data so that tools could all point to the Open Definition, in the same way the tools currently point to it for a definition of an open licence and a list of [conformant licenses](http://opendefinition.org/licenses/).
