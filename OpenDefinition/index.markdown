@@ -110,7 +110,7 @@ It could be argued that by prefixing the second sentence of the Open Format with
 — with a freely available published specification which places no restrictions, monetary or otherwise, upon its use, or  
 — that can be processed with at least one free/libre/open-source software tool. 
 
-(<a href=“#contribute”>Contribution needed</a>) Is it OK that this requirements are all optional for non-data works?
+(<a href=“#contribute”>Contribution needed</a>) Is it OK that these requirements are all optional for non-data works?
 
 
 <h2><a id=“meaning”>4. Words with special meaning</a></h2> 
