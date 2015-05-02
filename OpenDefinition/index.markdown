@@ -151,7 +151,7 @@ Tools like the [Open Data Census](http://census.okfn.org/) and [Open Data Certif
 
 Do you have another resource you’d like added below? <a href=“#contribute”>Make the list better</a>.
 
-#### Alternative definitions and views
+### Alternative definitions and views
 The links provide alternate perspectives on open formats:
 - [Open Format](http://en.wikipedia.org/wiki/Open_format) on Wikipedia.
 - [An emerging understanding of Open Standards](http://blogs.fsfe.org/greve/?p=160) on Freedom bits.
