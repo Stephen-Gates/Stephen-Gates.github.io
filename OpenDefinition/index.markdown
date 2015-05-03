@@ -151,13 +151,13 @@ Tools like the [Open Data Census](http://census.okfn.org/) and [Open Data Certif
 
 Do you have another resource you’d like added below? <a href=“#contribute”>Make the list better</a>.
 
-### Alternative definitions and views
+#### Alternative definitions and views
 The links provide alternate perspectives on open formats:
 - [Open Format](http://en.wikipedia.org/wiki/Open_format) on Wikipedia.
 - [An emerging understanding of Open Standards](http://blogs.fsfe.org/greve/?p=160) on Freedom bits.
 - [Open Data Usability Index](http://goo.gl/xGpLIs) - Herb Lainchbury. Interesting perspective of the degree of readability of data - digital, parse-able, open, and structured.
 
-### Lists of Open Formats
+#### Lists of Open Formats
 These lists of open format have not been assessed as being conformant with the Open Definition:
 - AusGOAL [Open Formats](http://www.ausgoal.gov.au/open-formats) -  Examples of open formats by media type. 
 - Snowdrift [FLO Formats and Repositories](https://snowdrift.coop/p/snowdrift/w/en/formats-repositories) - Free and open file formats and online repositories for Free/Libre/Open works.
