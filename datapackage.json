@@ -17,7 +17,7 @@
         "fields": [
           {
             "name": "Title",
-            "type": "string"
+            "type": "string",
 	    "description": "The company name of the Boatsafe training organisation"
            }
         ]
