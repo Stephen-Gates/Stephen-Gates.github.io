@@ -17,7 +17,7 @@
         "fields": [
           {
             "name": "Title",
-            "type": "string",
+            "type": "string"
            }
         ]
       }
