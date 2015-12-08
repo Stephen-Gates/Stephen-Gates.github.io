@@ -18,7 +18,7 @@
           {
             "name": "Title",
             "type": "string"
-			"description" : "The company name of the Boatsafe training organisation"
+	    "description": "The company name of the Boatsafe training organisation"
            }
         ]
       }
