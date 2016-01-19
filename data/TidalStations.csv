@@ -1,0 +1,21 @@
+Tidal Station Number,Tidal Station Name,Time Zone,Owner of readings,Data Type,Interval (minutes),Station Datum,Benchmark Description,Elevation of Benchmark relative to Station Datum (metres),Readings are referred to,Readings are the following height (metres) above Station Datum,Australian Height Datum (AHD) level (metres) relative to station datum,Longitude Decimal Degrees,Latitude Decimal Degrees
+061007A,Bowen Storm Surge,UTC+10 (AEST),Queensland Government,Observation,10,Lowest Astronomical Tide (LAT),PSM 10009,8.689,Lowest Astronomical Tide Datum,0,1.776,-20.01666667,148.25
+046046A,Brisbane Bar,UTC+10 (AEST),Queensland Government,Observation,10,Lowest Astronomical Tide (LAT),PSM 21764,3.102,Lowest Astronomical Tide Datum,0,1.243,-27.36666667,153.1666667
+051011A,Bundaberg (Burnett Heads) Port Gauge,UTC+10 (AEST),Queensland Government,Observation,10,Lowest Astronomical Tide (LAT),PSM 3853,6.061,Lowest Astronomical Tide Datum,0,1.693,-24.76666667,152.3833333
+056012A,Cairns Storm Surge,UTC+10 (AEST),Queensland Government,Observation,10,Lowest Astronomical Tide (LAT),PSM 96052,5.008,Lowest Astronomical Tide Datum,0,1.643,-16.93333333,145.7833333
+100280,Cairns Storm Surge No 7 Wharf,UTC+10 (AEST),Queensland Government,Observation,10,Lowest Astronomical Tide (LAT),PSM 96052,5.008,Lowest Astronomical Tide Datum,0,1.643,-16.91666667,145.7666667
+052027A,Gladstone Auckland Point,UTC+10 (AEST),Queensland Government,Observation,10,Lowest Astronomical Tide (LAT),PSM 10855,5.66,Lowest Astronomical Tide Datum,0,2.268,-23.83333333,151.25
+071004A,Karumba Storm Surge,UTC+10 (AEST),Queensland Government,Observation,10,Lowest Astronomical Tide (LAT),PSM 10222,6.808,Lowest Astronomical Tide Datum,0,2.184,-17.5,140.8333333
+100084,Mackay Outer Harbour Storm Surge,UTC+10 (AEST),Queensland Government,Observation,10,Lowest Astronomical Tide (LAT),PSM 10043,9.916,Lowest Astronomical Tide Datum,0,2.941,-21.1,149.2166667
+054004A,Mackay Storm Surge,UTC+10 (AEST),Queensland Government,Observation,10,Lowest Astronomical Tide (LAT),PSM 20035,10.595,Lowest Astronomical Tide Datum,0,2.941,-21.1,149.2166667
+100035,Marine Operations Base Southport,UTC+10 (AEST),Queensland Government,Observation,10,Lowest Astronomical Tide (LAT),PSM QGS564,6.688,Lowest Astronomical Tide Datum,0,0.76,-27.96666667,153.4166667
+011008A,Mooloolaba Storm Surge,UTC+10 (AEST),Queensland Government,Observation,10,Lowest Astronomical Tide (LAT),PSM 14102,3.131,Lowest Astronomical Tide Datum,0,0.99,-26.66666667,153.1333333
+063012A,Mourilyan Storm Surge,UTC+10 (AEST),Queensland Government,Observation,10,Lowest Astronomical Tide (LAT),PSM 4855,5.037,Lowest Astronomical Tide Datum,0,1.729,-17.6,146.1166667
+050008A,Port Alma Storm Surge,UTC+10 (AEST),Queensland Government,Observation,10,Lowest Astronomical Tide (LAT),PSM 22966,6.706,Lowest Astronomical Tide Datum,0,2.854,-23.58333333,150.8666667
+024011A,Rosslyn Bay,UTC+10 (AEST),Queensland Government,Observation,10,Lowest Astronomical Tide (LAT),PSM 47784,6.64,Lowest Astronomical Tide Datum,0,2.36,-23.16666667,150.8
+030003A,Shute Harbour Storm Surge,UTC+10 (AEST),Queensland Government,Observation,10,Lowest Astronomical Tide (LAT),PSM 8295,5.103,Lowest Astronomical Tide Datum,0,1.907,-20.28333333,148.7833333
+100447,Townsville Berth 1 Pumphouse,UTC+10 (AEST),Queensland Government,Observation,10,Lowest Astronomical Tide (LAT),PSM 10011,9.025,Lowest Astronomical Tide Datum,0,1.856,-19.25,146.8333333
+055003A,Townsville Storm Surge,UTC+10 (AEST),Queensland Government,Observation,10,Lowest Astronomical Tide (LAT),PSM 10011,9.025,Lowest Astronomical Tide Datum,0,1.856,-19.25,146.8333333
+058009B,Urangan Storm Surge,UTC+10 (AEST),Queensland Government,Observation,10,Lowest Astronomical Tide (LAT),PSM 11028,5.835,Lowest Astronomical Tide Datum,0,2.04,-25.3,152.9166667
+100281,Weipa (VTS),UTC+10 (AEST),Queensland Government,Observation,10,Lowest Astronomical Tide (LAT),PSM 15094,7.287,Lowest Astronomical Tide Datum,0,1.752,-12.68333333,141.85
+070021A,Weipa Storm Surge,UTC+10 (AEST),Queensland Government,Observation,10,Lowest Astronomical Tide (LAT),PSM 15094,7.287,Lowest Astronomical Tide Datum,0,1.752,-12.66666667,141.8666667
