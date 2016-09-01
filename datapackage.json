@@ -1,27 +1,119 @@
 {
-  "name": "Boatsafe training organisations",
-  "title": "Boatsafe training organisations",
-  "description": "The following dataset contains details on the Department of Transport and Main Roads approved BoatSafe training organisations.",
-  "license": "CC-BY Attribution",
-  "keywords": ["Boatsafe"],
-  "version": "2015",
-  "last_updated": "2015-11-13",
-  "sources": [{
-    "name": "Department of Transport and Main Roads",
-    "web": "http://www.tmr.qld.gov.au/"
-  }],
+  "name": "average-bicycle-counts-by-day-and-hour",
+  "title": "Average Bicycle Counts By Day And Hour",
+  "description": "This dataset contains average counts of bicycle traffic by hour of the day and day of the week.\n\nData is collected from bicycle counters across 14 active transport sites. As more sites come on line in the future these will be added to the dataset. These bicycle counters were installed in conjunction with the State Cycle Unit and are permanent installations that provide 24/7 bicycle counting data.",
+  "homepage": "https://data.qld.gov.au/dataset/average-bicycle-counts-by-day-and-hour",
+  "version": "1",
+  "license": {
+    "type": "CC BY 3.0 AU",
+    "url": "http://creativecommons.org/licenses/by/3.0/au/"
+  },
+  "author": "Transport and Main Roads, Queensland Government",
   "resources": [
     {
-	  "url": "http://data.qld.gov.au/dataset/boatsafe-training-organisations/resource/dcd4980a-adc2-4c60-bd0f-2478f983ff91",
+      "name": "averagebicyclecountsbydayandhour",
+      "title": "Average bicycle counts by day and hour",
       "schema": {
         "fields": [
           {
-            "name": "Title",
-            "type": "string",
-	    "description": "The company name of the Boatsafe training organisation"
-           }
+            "name": "SITE_ID",
+            "description": "ID number of each site collecting data",
+            "constraints": {
+              "required": true,
+              "type": "http://www.w3.org/2001/XMLSchema#int"
+            }
+          },
+          {
+            "name": "DESCRIPTION",
+            "description": "Site description",
+            "constraints": {
+              "required": true,
+              "type": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          },
+          {
+            "name": "MONTHS",
+            "description": "Month data was collected in e.g. January",
+            "constraints": {
+              "required": true,
+              "type": "http://www.w3.org/2001/XMLSchema#string",
+              "pattern": "(January|February|March|April|May|June|July|August|September|October|November| December)"
+            }
+          },
+          {
+            "name": "YEARS",
+            "description": "Year data was collected in e.g. 2016. #gYear allows 20016 - use pattern instead to check 2016-2099",
+            "constraints": {
+              "required": true,
+              "type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+              "pattern": "201[6-9]|20[2-9][0-9]"
+            }
+          },
+          {
+            "name": "HOURS",
+            "description": "Hour data was collected in e.g. 0..23",
+            "constraints": {
+              "required": true,
+              "type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+              "minimum": 0,
+              "maximum": 23
+            }
+          },
+          {
+            "name": "SATURDAY",
+            "description": "Average amount of bicycle counts that was recorded on this day and time. Can be null if there is a error recording data.",
+            "constraints": {
+              "type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            }
+          },
+          {
+            "name": "SUNDAY",
+            "description": "Average amount of bicycle counts that was recorded on this day and time",
+            "constraints": {
+              "type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            }
+          },
+          {
+            "name": "MONDAY",
+            "description": "Average amount of bicycle counts that was recorded on this day and time",
+            "constraints": {
+              "type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            }
+          },
+          {
+            "name": "TUESDAY",
+            "description": "Average amount of bicycle counts that was recorded on this day and time",
+            "constraints": {
+              "type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            }
+          },
+          {
+            "name": "WEDNESDAY",
+            "description": "Average amount of bicycle counts that was recorded on this day and time",
+            "constraints": {
+              "type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            }
+          },
+          {
+            "name": "THURSDAY",
+            "description": "Average amount of bicycle counts that was recorded on this day and time",
+            "constraints": {
+              "type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            }
+          },
+          {
+            "name": "FRIDAY",
+            "description": "Average amount of bicycle counts that was recorded on this day and time",
+            "constraints": {
+              "type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+            }
+          }
         ]
-      }
+      },
+      "path": "averagebicyclecountsbydayandhour -ORIGINAL.csv",
+      "format": "CSV",
+      "mediatype": "text/csv",
+      "bytes": 0
     }
   ]
 }
